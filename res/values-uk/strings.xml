@@ -25,7 +25,7 @@
     <string name="initializing">"Підготування до роботи."</string>
     <string name="listening">"Слухаю…"</string>
     <string name="please_try_again">"Повторіть спробу."</string>
-    <string name="recognition_error">"Крім того, попробуйте перезавантажити телефон."</string>
+    <string name="recognition_error">"Крім того, спробуйте перезавантажити телефон."</string>
     <string name="at_home">" додому"</string>
     <string name="on_mobile">" на мобільний"</string>
     <string name="at_work">" на роботу"</string>
