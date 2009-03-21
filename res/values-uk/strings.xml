@@ -1,35 +1,94 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright (C) 2009 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
-
+  
           http://www.apache.org/licenses/LICENSE-2.0
-
+  
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- no translation found for voiceDialer (5948204210436590941) -->
-    <skip />
-    <string name="tool_tip_title">"Чи знаєте ви…"</string>
-    <string name="tool_tip_message">"Щоб відкрити Голосовий набір, натисніть і затримайте зелену кнопку виклику."</string>
-    <!-- no translation found for examples (2100807337052050741) -->
-    <skip />
+
+<resources>
+    <!-- The name of the Voice Dialer application. -->
+    <string name="voiceDialer">"Голосовий набір"</string>
+
+    <!-- title to the Tool Tip window.  open when VoiceDialer not launched
+        by green Call button -->
+    <string name="tool_tip_title">"Чи знаєте ви\u2026"</string>
+
+    <!-- message in the Tool Tip window.  purpose is to notify user of green
+        Call button launch -->
+    <string name="tool_tip_message">
+        "Щоб відкрити Голосовий набір, 
+        натисніть &amp; затримайте зелену кнопку виклику."
+    </string>
+
+    <!-- present on the VoiceDialer main screen to give examples of valid
+            speech input -->
+    <string name="examples">
+        Приклад:
+        <b>
+            "\n\"Зателефонувати Джону Доі\""
+            "\n\"Зателефонувати Джону Доі додому, \u2026\""
+            "\n\"Зателефонувати на голосову пошту\""
+            "\n\"Набрати (866) 555 0123\""
+            "\n\"Набрати 911, 811, \u2026\""
+            "\n\"Набрати +44 7333 444 555\""
+            "\n\"Набрати ще раз\""
+            "\n\"Відкрити Календар\""
+        </b>
+    </string>
+
+    <!-- title to the VoiceDialer main screen -->
     <string name="title">"Голосовий набір"</string>
-    <string name="initializing">"Підготування до роботи."</string>
-    <string name="listening">"Слухаю…"</string>
+
+    <!-- displayed on the VoiceDialer main screen while initializing -->
+    <string name="initializing">"Розпочинається."</string>
+
+    <!-- displayed on the VoiceDialer main screen while listening to speech -->
+    <string name="listening">"Прослуховування\u2026"</string>
+
+    <!-- displayed on the VoiceDialer main screen upon failure -->
     <string name="please_try_again">"Повторіть спробу."</string>
-    <string name="recognition_error">"Крім того, попробуйте перезавантажити телефон."</string>
+
+    <!-- displayed on the VoiceDialer main screen after unrecoverable error.
+            when present, this message follows the one above -->
+    <string name="recognition_error">
+        "Крім того, спробуйте перезавантажити телефон."
+    </string>
+
+    <!-- appended to recognition result from VoiceDialer.grxml to
+            indicate a 'home' number.
+            'Call John Smith' becomes 'Call John Smith at home'  -->
     <string name="at_home">" додому"</string>
+
+    <!-- appended to recognition result from VoiceDialer.grxml to
+            indicate a 'mobile' number.
+            'Call John Smith' becomes 'Call John Smith at home'  -->
     <string name="on_mobile">" на мобільний"</string>
-    <string name="at_work">" на роботу"</string>
+
+    <!-- appended to recognition result from VoiceDialer.grxml to
+            indicate a 'work' number.
+            'Call John Smith' becomes 'Call John Smith at home'  -->
+    <string name="at_work">" на роботі"</string>
+
+    <!-- appended to recognition result from VoiceDialer.grxml to
+            indicate a 'other' number.
+            'Call John Smith' becomes 'Call John Smith at home'  -->
     <string name="at_other">" на інший номер"</string>
+
+    <!-- message in popup which indicates that VoiceDialer logging
+            has been enabled -->
     <string name="logging_enabled">"Вхід у голосовий набір увімкнено."</string>
+    
+    <!-- message in popup which indicates that VoiceDialer logging
+            has been disabled -->
     <string name="logging_disabled">"Вхід у голосовий набір вимкнено."</string>
+
 </resources>
