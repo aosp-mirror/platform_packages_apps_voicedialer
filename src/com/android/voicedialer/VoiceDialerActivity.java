@@ -269,7 +269,7 @@ public class VoiceDialerActivity extends Activity {
         }
 
         // bye
-        finish();
+        //finish();  //while rotating from portrait to landscape this may kill application.
     }
 
     private void notifyText(final CharSequence msg) {
