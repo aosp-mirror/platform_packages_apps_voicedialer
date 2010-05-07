@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAyX///tM\u003d",
+        "filename": "src/com/android/voicedialer/VoiceDialerActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 272,
+      "author": {
+        "id": 1000660
+      },
+      "writtenOn": "2010-05-07T17:47:32Z",
+      "side": 1,
+      "message": "I think it\u0027d be better to remove that code entirely instead of commenting it out.",
+      "revId": "9d0e6db3db0fd7f6f536a9d46bc220df2dc09af1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
