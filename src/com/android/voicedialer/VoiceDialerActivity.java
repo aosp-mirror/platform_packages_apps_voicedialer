@@ -19,6 +19,7 @@ package com.android.voicedialer;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.content.DialogInterface;
 import android.media.ToneGenerator;
@@ -576,7 +577,11 @@ public class VoiceDialerActivity extends Activity {
     private void startActivityHelp(Intent intent) {
         if (getArg(MICROPHONE_EXTRA) == null &&
                 getArg(CONTACTS_EXTRA) == null) {
-            startActivity(intent);
+            try {
+                startActivity(intent);
+            } catch (ActivityNotFoundException e) {
+                e.printStackTrace();
+            }
         } else {
             notifyText(intent.
                     getStringExtra(RecognizerEngine.SENTENCE_EXTRA) +
