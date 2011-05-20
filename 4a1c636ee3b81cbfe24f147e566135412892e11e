@@ -1,0 +1,8 @@
+Change-Id: I4a1c636ee3b81cbfe24f147e566135412892e11e
+Code-Review+2: Jean-Baptiste Queru <jbq@google.com>
+Verified+1: Jean-Baptiste Queru <jbq@google.com>
+Submitted-by: Jean-Baptiste Queru <jbq@google.com>
+Submitted-at: Wed, 18 Mar 2009 13:59:36 -0700
+Reviewed-on: https://review.source.android.com/9198
+Project: platform/packages/apps/VoiceDialer
+Branch: refs/heads/master
