@@ -1143,6 +1143,11 @@ public class VoiceDialerActivity extends Activity {
         }
         unregisterReceiver(mReceiver);
 
+        if (mToneGenerator != null) {
+            mToneGenerator.release();
+            mToneGenerator = null;
+        }
+
         super.onDestroy();
 
         releaseWakeLock();
